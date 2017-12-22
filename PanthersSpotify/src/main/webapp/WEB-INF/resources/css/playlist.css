@@ -1,0 +1,162 @@
+
+  /* for the close button in input type search */
+  input[type="search"]::-webkit-search-cancel-button
+  {
+    -webkit-appearance: searchfield-cancel-button;
+  }
+
+#playlist-top-background{
+	background: -webkit-linear-gradient(top, #6b6969, #272a2d);
+	margin-top: -5%;
+}
+.playlist-top{
+	color: white;
+	margin-top: 5%;
+	margin-left: 5%;
+	
+}
+
+.playlist_image_box{
+	margin-top: 5%;
+}
+.playlist-details-box{
+	margin-top: 5%;
+	margin-left: 2%;
+	width: 50vw;
+}
+
+#playlist-page-title{
+	margin-top: 4%;
+	margin-bottom: 0;
+	color: #d7d7d7;
+	font-size: 0.9em;
+}
+
+#playlist-name{
+	font-size: 2.5em;
+	margin-top:0;
+	margin-bottom: 1%;
+	
+}
+
+#playlist-des{
+	margin-top: 0;
+	font-size: 1em;
+	font-weight: light;
+	margin-bottom: 1.5%;
+	color: #d7d7d7;
+}
+
+#playlist-create{
+	margin-top: 0;
+	font-size: 1em;
+	font-weight: light;
+	margin-bottom: 2%;
+	color: #d7d7d7;
+}
+
+#play-button{
+	border-radius: 40px;
+	margin-right: 1%;
+	
+}
+
+#playlist-play-top{
+	width: auto;
+	margin-left: 2%;
+}
+
+#play-dropdown{
+	
+}
+#play-dropdown: hover{
+	background: transparent;
+}
+
+#playlist-follower{
+	float:right;
+}
+
+#playlist-song-collection{
+	margin-top: 7%;
+	width: 90%;
+}
+  #search_span
+  {
+    background-color: #343a40;
+    color: white;
+    border: none;
+    color: #cccccc;
+  }
+  #filter_keyword
+  {
+    width: 90%;
+    font-size: 16px;
+      background-color: #343a40;
+      border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;border:none;
+  color: #cccccc;
+  }
+  #filter_container
+  {
+    margin-top: 3%;
+
+  }
+
+  .formButton
+  {
+      display:block;
+       border-radius: 10px;
+        color:white;
+        width: 90px;
+        background-color:#00cc00;
+        font-size: 12px;
+  }
+ 
+  .playlist_action_dropdown
+  {
+    font-size: 10px;
+  }
+
+  .playlist_action_list
+  {
+    max-height:350px;
+    overflow:scroll;
+  }
+  
+   .song_action_list
+  {
+  background-color: gray;
+  margin-left: -120%;
+  }
+  .add-to-playlists-section
+  {
+   background-color: gray;
+   margin-left: -115%;
+   margin-top: -40%;
+  }
+  
+  #filter_and_download .download_right
+  {
+  	float: right;
+  } 
+  #filter_and_download .filter_left
+  {
+  	float: left;
+  } 
+  
+tr{
+	line-height: 14px; 
+}
+
+.table p{
+	margin-bottom: 0;
+}
+.table th, .table td{
+    padding: 1rem 0rem 1rem 0.5rem;
+    vertical-align: center;
+    border-top: 0.5px solid grey;
+    border-bottom: 0.5px solid grey !important;
+    margin: 0 !important;
+}
